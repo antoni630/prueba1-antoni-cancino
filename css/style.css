@@ -1,9 +1,12 @@
-
+body{
+    margin: 0 px ;
+}
 .logo{
-    border:1px solid red;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
+    Background:  rgb(224, 158, 158);
 }
     
 .logo img {
@@ -12,7 +15,14 @@
 }
 .menu ul  {
     display :flex;
+    
+
 }
-.menu button {
-    display :flex;
+.menu ul li {
+    list-style-type: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color : white;
+    margin-left: 10px;
 }
