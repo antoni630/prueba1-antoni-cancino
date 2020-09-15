@@ -1,6 +1,18 @@
 
 .logo{
     border:1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
     
-
+.logo img {
+    height: 30px;
+    width: 30px;
+}
+.menu ul  {
+    display :flex;
+}
+.menu button {
+    display :flex;
+}
