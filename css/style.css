@@ -7,6 +7,7 @@ body{
     justify-content: space-between;
     align-items: center;
     Background:  rgb(224, 158, 158);
+    margin : 50px
 }
     
 .logo img {
@@ -25,4 +26,19 @@ body{
     text-decoration: none;
     color : white;
     margin-left: 10px;
+}
+.primero {
+    background-image: url(../img/2.jpg);
+    padding: 200px;
+    margin : 50px;
+   
+}
+.fondo {
+    
+}
+.centro{
+    Display :flex ;
+    fustify-content:flex-center;
+    Fustify-content:flex-center;
+     
 }
