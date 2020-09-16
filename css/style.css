@@ -1,5 +1,5 @@
-body{
-    margin: 0 px ;
+.container {
+    margin: 50 px ;
 }
 .logo{
     
@@ -36,9 +36,36 @@ body{
 .fondo {
     
 }
-.centro{
-    Display :flex ;
-    fustify-content:flex-center;
-    Fustify-content:flex-center;
+.centro h1{
+    display: flex;
+    justify-items: center;
+    margin-left:  450px;
      
 }
+.triple{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin : 70px;
+}
+.triple img {
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
