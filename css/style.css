@@ -15,7 +15,7 @@
     width: 30px;
 }
 .menu ul  {
-    display :flex;
+    display: flex;
     
 
 }
@@ -31,6 +31,7 @@
     background-image: url(../img/2.jpg);
     padding: 200px;
     margin : 50px;
+    text-align: center;
    
 }
 .fondo {
@@ -39,33 +40,81 @@
 .centro h1{
     display: flex;
     justify-items: center;
-    margin-left:  450px;
-     
+
+    text-align: center;
+
 }
 .triple{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin : 70px;
+    padding: 10px;
+    Background: rgb(224, 208, 208);
+   
 }
 .triple img {
     height: 100px;
     width: 100px;
 }
+.triple1{
+    box-shadow :3px 3px 15px black;
+    padding: 10px;
+}
+.triple2{
+    box-shadow :3px 3px 15px black;
+    padding: 10px;
+}
+.triple3{
+    box-shadow :3px 3px 15px black;
+    padding: 10px;
+}
 
 
+.doble{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin : 70px;
+    padding: 10px;
+    
+}
 
 
+.doble2{
+    padding :10 px;
+}
+
+.uno{
+    
+    justify-items: center;
+   text-align: center;
+    margin : 70px;  
+    background : rgb(221, 245, 221);
+    
+}
+
+.fin{
+    
+    
+    justify-content: space-between;
+
+    
+    margin : 70px;
+}
 
 
-
-
-
-
-
-
-
-
+.fin ul{
+    display: flex;
+}
+.fin ul li {
+    list-style-type: none;
+}
+.fin ul li a {
+    text-decoration: none;
+   color : black;
+    margin-left: 10px;
+}
 
 
 
